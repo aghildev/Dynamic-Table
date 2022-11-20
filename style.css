@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+
+.container{
+  width:90%;
+  max-width:1020px;
+ margin-inline:auto;
+
+}
+form{
+  margin-block:5rem;
+}
+#name,#email,#contact{
+    padding:0.5em;
+    width: 300px;
+    font-size:inherit;
+    padding-left:0;
+    border:5px solid green;
+}
+.sub{
+  padding:.5em;
+  font-size: inherit;
+  border:5px solid green;
+ cursor: pointer;
+ font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+  table td,
+  table th {
+    border: solid 1px black;
+  }
+
+  th{
+    background-color:green;
+    width:400px;
+    height:50px;
+  }
+  td{
+    height: 50px;
+    font-weight: bold;
+  }
+
+  .delete-btn{
+    padding:0.5em;
+    background-color: crimson;
+    font-weight: bold;
+    border-radius:2px;
+    cursor: pointer;
+  }
+
+.error{
+  text-align:center;
+  color:red;
+  font-weight: bold;
+  font-size:2rem;
+  
+}
+
+.success{
+  text-align:center;
+  color:green;
+  font-weight: bold;
+  font-size:2rem;
+}
